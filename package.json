@@ -1,0 +1,27 @@
+{
+  "name": "mydiary",
+  "version": "1.0.0",
+  "description": "An online journal where users can pen down their thoughts and feelings down",
+  "main": "server/index.js",
+  "scripts": {
+    "start:watch": "nodemon server/index.js --exec babel-node",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/faeludire/MyDiary.git"
+  },
+  "author": "Fiyinfolu Eludire",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/faeludire/MyDiary/issues"
+  },
+  "homepage": "https://github.com/faeludire/MyDiary#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "nodemon": "^2.0.4"
+  }
+}
